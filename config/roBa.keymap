@@ -107,7 +107,7 @@
 
         ARROW {
             bindings = <
-&kp LG(W)  &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)              &kp LG(N)                                                     &trans  &trans  &trans  &trans  &trans
+&kp LG(W)  &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)              &kp LG(T)                                                     &trans  &trans  &trans  &trans  &trans
 &kp HOME   &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END                  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &kp LC(PAGE_UP)  &trans          &kp LC(PAGE_DOWN)        &trans                   &trans                       &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans           &trans          &kp LG(LS(KP_NUMBER_3))  &kp LG(LS(KP_NUMBER_4))  &kp LG(LS(KP_NUMBER_5))      &trans  &trans                          &trans
