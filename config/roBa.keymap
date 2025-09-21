@@ -62,28 +62,28 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp F1   &kp F2   &kp F3   &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp F6   &kp F7   &kp F8   &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp F10  &kp F11  &kp F12  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                             &trans
+&trans            &trans        &trans            &trans          &trans                      &kp F1   &kp F2   &kp F3   &kp F4  &kp F5
+&trans            &trans        &trans            &trans          &trans  &trans      &trans  &kp F6   &kp F7   &kp F8   &kp F9  &kp F10
+&trans            &trans        &trans            &trans          &trans  &trans      &trans  &kp F10  &kp F11  &kp F12  &trans  &trans
+&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans  &trans      &trans  &trans                             &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp N5                          &trans         &kp AT_SIGN  &kp LEFT_BRACKET   &trans  &trans
-&kp NUMBER_6  &kp N7        &kp N8        &kp N9          &kp N0      &trans      &trans  &kp SEMICOLON  &kp COLON    &kp RIGHT_BRACKET  &trans  &trans
-&kp MINUS     &kp LCTRL     &kp INT_YEN   &kp UNDERSCORE  &kp PERIOD  &trans      &trans  &trans         &trans       &trans             &trans  &trans
-&trans        &trans        &trans        &trans          &trans      &trans      &trans  &trans                                                 &trans
+&kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4    &kp N5                          &trans         &kp AT_SIGN  &kp LEFT_BRACKET   &trans  &trans
+&kp NUMBER_6      &kp N7        &kp N8            &kp N9          &kp N0      &trans      &trans  &kp SEMICOLON  &kp COLON    &kp RIGHT_BRACKET  &trans  &trans
+&kp MINUS         &kp CARET     &kp INT_YEN       &kp UNDERSCORE  &kp PERIOD  &trans      &trans  &trans         &trans       &trans             &trans  &trans
+&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans      &trans      &trans  &trans                                                 &trans
             >;
         };
 
         ARROW {
             bindings = <
-&kp LG(Q)         &kp LG(W)     &trans            &trans             &kp LG(T)                                         &trans  &trans          &kp UP_ARROW    &trans           &trans
-&kp HOME          &trans        &kp LC(LS(TAB))   &kp LC(TAB)        &kp END               &trans              &trans  &trans  &kp LEFT_ARROW  &kt DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans            &trans        &kp LC(PAGE_UP)   &kp LC(PAGE_DOWN)  &trans                &trans              &trans  &trans  &trans          &trans          &trans           &trans
-&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT     &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))      &trans  &trans                                                   &trans
+&kp LG(Q)         &kp LG(W)     &trans            &trans             &kp LG(T)                                         &trans              &trans          &kp UP_ARROW    &trans           &trans
+&kp HOME          &trans        &kp LC(LS(TAB))   &kp LC(TAB)        &kp END               &trans              &trans  &kp LG(LEFT_ARROW)  &kp LEFT_ARROW  &kt DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(RIGHT_ARROW)
+&trans            &trans        &kp LC(PAGE_UP)   &kp LC(PAGE_DOWN)  &trans                &trans              &trans  &trans              &trans          &trans          &trans           &trans
+&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT     &kp LS(LG(NUMBER_3))  &kp LS(LG(N5))      &trans  &trans                                                               &trans
             >;
         };
 
