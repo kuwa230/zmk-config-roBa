@@ -107,10 +107,10 @@
 
         layer_6 {
             bindings = <
-&bt BT_SEL 0         &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3         &bt BT_SEL 4                                &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS
-&trans               &trans        &trans          &trans               &bt BT_CLR    &trans                &trans  &kp PERIOD       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS
-&kp INTERNATIONAL_4  &kp INT4      &kp INT_HENKAN  &kp INTERNATIONAL_5  &kp INT5      &kp INT_MUHENKAN      &trans  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp ASTERISK
-&trans               &trans        &trans          &trans               &trans        &trans                &trans  &trans                                                              &kp SLASH
+&bt BT_SEL 0         &bt BT_SEL 1  &bt BT_SEL 2              &bt BT_SEL 3  &bt BT_SEL 4                           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans           &kp PLUS
+&trans               &trans        &trans                    &trans        &bt BT_CLR      &trans         &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERIOD       &kp MINUS
+&kp INTERNATIONAL_2  &kp INT2      &kp INT_KATAKANAHIRAGANA  &kp INT_KANA  &kp LANGUAGE_4  &kp LANG4      &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0  &kp ASTERISK
+&trans               &trans        &trans                    &trans        &trans          &trans         &trans  &trans                                                              &kp SLASH
             >;
         };
     };
