@@ -80,10 +80,10 @@
 
         ARROW {
             bindings = <
-&trans            &kp LG(T)          &kp LG(T)          &trans                   &trans                                                        &trans  &trans          &kp UP_ARROW    &trans           &trans
-&kp HOME          &kp LC(TAB)        &kp LC(TAB)        &kp END                  &trans                   &trans                       &trans  &trans  &kp LEFT_ARROW  &kt DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans            &kp LC(PAGE_DOWN)  &kp LC(PAGE_DOWN)  &trans                   &trans                   &trans                       &trans  &trans  &trans          &trans          &trans           &trans
-&kp LEFT_COMMAND  &trans             &trans             &kp LS(LG(KP_NUMBER_3))  &kp LS(LG(KP_NUMBER_4))  &kp LS(LG(KP_NUMBER_5))      &trans  &trans                                                   &trans
+&trans            &kp LG(T)          &kp LG(T)          &trans          &trans                                                        &trans  &trans          &kp UP_ARROW    &trans           &trans
+&kp HOME          &kp LC(TAB)        &kp LC(TAB)        &kp END         &trans                   &trans                       &trans  &trans  &kp LEFT_ARROW  &kt DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans            &kp LC(PAGE_DOWN)  &kp LC(PAGE_DOWN)  &trans          &trans                   &trans                       &trans  &trans  &trans          &trans          &trans           &trans
+&kp LEFT_COMMAND  &trans             &trans             &kp LEFT_SHIFT  &kp LS(LG(KP_NUMBER_4))  &kp LS(LG(KP_NUMBER_5))      &trans  &trans                                                   &trans
             >;
         };
 
@@ -98,10 +98,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans        &kp LC(UP_ARROW)  &kp LG(A)  &kp LC(X)                      &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(LEFT)  &kp LC(RIGHT)     &kp LG(C)  &kp LG(V)  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &kp LC(LG(F))     &trans     &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans            &trans     &trans     &trans      &trans  &trans                          &trans
+&trans  &trans        &kp LC(UP_ARROW)  &kp LG(A)  &kp LC(X)                             &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(LEFT)  &kp LC(RIGHT)     &kp LG(C)  &kp LG(V)  &kp LS(LG(V))      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &kp LC(LG(F))     &trans     &trans     &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans            &trans     &trans     &trans             &trans  &trans                          &trans
             >;
         };
 
