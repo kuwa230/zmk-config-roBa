@@ -91,7 +91,7 @@
             bindings = <
 &trans  &trans        &kp LC(UP_ARROW)  &kp LG(A)  &kp LG(X)                             &trans  &trans  &trans  &trans  &trans
 &trans  &kp LC(LEFT)  &kp LC(RIGHT)     &kp LG(C)  &kp LG(V)  &kp LG(LA(V))      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &kp LC(LG(F))     &trans     &trans     &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &kp LC(LG(F))     &kp LG(Z)  &kp LG(Y)  &kp LS(LG(Z))      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans            &trans     &trans     &trans             &trans  &trans                          &trans
             >;
         };
