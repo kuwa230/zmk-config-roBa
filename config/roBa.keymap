@@ -44,7 +44,7 @@
 
         default_layer {
             bindings = <
-&lt 1 Q           &kp W         &kp E             &kp R           &kp T                                                       &kp Y        &kp U  &lt 4 I    &kp O    &kp P
+&lt 1 Q           &kp W         &kp E             &kp R           &kp T                                                       &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D             &kp F           &kp G                 &lt 6 ESCAPE          &kp MINUS       &kp H        &kp J  &kp K      &kp L    &lt 2 ENTER
 &kp Z             &kp X         &kp C             &kp V           &kp B                 &kp TAB               &kp DELETE      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LS(LG(NUMBER_4))  &kp INT_MUHENKAN      &kp INT_HENKAN  &lt 3 SPACE                             &kp BACKSPACE
@@ -78,21 +78,21 @@
             >;
         };
 
-        SCROLL {
-            bindings = <
-&trans  &trans        &kp LC(UP_ARROW)  &kp LG(A)  &kp LG(X)                             &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(LEFT)  &kp LC(RIGHT)     &kp LG(C)  &kp LG(V)  &kp LG(LA(V))      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &kp LC(LG(F))     &kp LG(Z)  &kp LG(Y)  &kp LS(LG(Z))      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans            &trans     &trans     &trans             &trans  &trans                          &trans
-            >;
-        };
-
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
+            >;
+        };
+
+        SCROLL {
+            bindings = <
+&trans  &trans        &kp LC(UP_ARROW)  &kp LG(A)  &kp LG(X)                             &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(LEFT)  &kp LC(RIGHT)     &kp LG(C)  &kp LG(V)  &kp LG(LA(V))      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &kp LC(LG(F))     &kp LG(Z)  &kp LG(Y)  &kp LS(LG(Z))      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans            &trans     &trans     &trans             &trans  &trans                          &trans
             >;
         };
 
