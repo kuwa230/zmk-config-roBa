@@ -71,10 +71,10 @@
 
         ARROW {
             bindings = <
-&kp LG(Q)         &kp LG(W)        &trans            &trans             &kp LG(T)                                         &trans              &trans          &kp UP_ARROW    &trans           &trans
-&kp HOME          &kp LC(LS(TAB))  &trans            &kp LC(TAB)        &kp END               &trans              &trans  &kp LG(LEFT_ARROW)  &kp LEFT_ARROW  &kt DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(RIGHT_ARROW)
-&trans            &kp LC(PAGE_UP)  &trans            &kp LC(PAGE_DOWN)  &trans                &trans              &trans  &trans              &trans          &trans          &trans           &trans
-&kp LEFT_COMMAND  &kp LEFT_ALT     &kp LEFT_CONTROL  &kp LEFT_SHIFT     &kp LS(LG(NUMBER_3))  &kp LS(LG(N5))      &trans  &trans                                                               &trans
+&kp LG(Q)         &kp LG(W)        &trans                 &trans             &kp LG(T)                                         &trans              &trans          &kp UP_ARROW    &trans           &trans
+&kp HOME          &kp LC(LS(TAB))  &kp LG(LEFT_BRACKET)   &kp LC(TAB)        &kp END               &trans              &trans  &kp LG(LEFT_ARROW)  &kp LEFT_ARROW  &kt DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(RIGHT_ARROW)
+&trans            &kp LC(PAGE_UP)  &kp LG(RIGHT_BRACKET)  &kp LC(PAGE_DOWN)  &trans                &trans              &trans  &trans              &trans          &trans          &trans           &trans
+&kp LEFT_COMMAND  &kp LEFT_ALT     &kp LEFT_CONTROL       &kp LEFT_SHIFT     &kp LS(LG(NUMBER_3))  &kp LS(LG(N5))      &trans  &trans                                                               &trans
             >;
         };
 
