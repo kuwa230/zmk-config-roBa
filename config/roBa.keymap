@@ -107,28 +107,28 @@
 
         ARROW {
             bindings = <
-&trans    &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans    &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans    &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&kp LG(Q)         &kp LG(W)        &trans                 &trans             &kp LG(T)                                         &trans              &trans          &kp UP_ARROW    &trans           &trans
+&kp HOME          &kp LC(LS(TAB))  &kp LG(LEFT_BRACKET)   &kp LC(TAB)        &kp END               &trans              &trans  &kp LG(LEFT_ARROW)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(RIGHT_ARROW)
+&trans            &kp LC(PAGE_UP)  &kp LG(RIGHT_BRACKET)  &kp LC(PAGE_DOWN)  &trans                &trans              &trans  &trans              &trans          &trans          &trans           &trans
+&kp LEFT_COMMAND  &kp LEFT_ALT     &kp LEFT_CONTROL       &kp LEFT_SHIFT     &kp LG(LS(NUMBER_3))  &kp LG(LS(N5))      &trans  &trans                                                               &trans
             >;
         };
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
+&trans  &trans  &trans  &trans    &trans                        &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &mkp MB4  &mkp MB5  &trans      &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
+&trans  &trans  &trans  &trans    &trans    &trans      &trans  &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans    &trans    &trans      &trans  &trans                              &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans              &kp LC(UP_ARROW)     &kp LG(A)  &kp LG(X)                             &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LG(C)  &kp LG(V)  &kp LG(LA(V))      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans              &kp LG(LC(F))        &kp LG(Z)  &kp LG(Y)  &kp LG(LS(Z))      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans              &trans               &trans     &trans     &trans             &trans  &trans                          &trans
             >;
         };
 
