@@ -31,16 +31,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-    };
-
-    macros {
-        to_layer_0: to_layer_0 {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
-            label = "TO_LAYER_0";
+            key-positions = <0 1>;
         };
     };
 
@@ -60,10 +51,10 @@
 
         default_layer {
             bindings = <
-&lt 1 Q           &kp W         &kp E             &kp R           &kp T                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D             &lt 6 F         &kp G                 &kp ESCAPE      &kp MINUS   &kp H        &kp J  &kp K      &kp L    &lt 2 ENTER
-&kp Z             &kp X         &kp C             &kp V           &kp B                 &kp TAB         &kp DELETE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LG(LS(NUMBER_4))  &kp F13         &kp F14     &lt 3 SPACE                             &kp BACKSPACE
+&lt 1 Q           &kp W         &kp E             &kp R           &kp T                                              &kp Y          &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D             &lt 6 F         &kp G        &kp ESCAPE      &kp MINUS             &kp H          &kp J  &kp K      &kp L    &lt 2 ENTER
+&kp Z             &kp X         &kp C             &kp V           &kp B        &kp TAB         &kp LG(LS(NUMBER_4))  &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &lt 3 SPACE  &kp F13         &kp F14               &kp BACKSPACE                             &kp DELETE
             >;
         };
 
