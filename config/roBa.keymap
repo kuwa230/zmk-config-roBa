@@ -80,10 +80,10 @@
 
         CMDSCROLL {
             bindings = <
-&kp LG(Q)      &kp LG(W)              &kp LG(T)           &kp LG(A)             &kp LG(X)                                         &trans  &trans  &trans  &trans  &trans
-&mkp MB5       &kp LG(LEFT_BRACKET)   &kp LG(UP_ARROW)    &kp LG(C)             &kp LG(V)       &kp LG(LA(V))             &trans  &trans  &trans  &trans  &trans  &trans
-&kp LS(LG(C))  &kp LG(RIGHT_BRACKET)  &kp LG(DOWN_ARROW)  &kp LG(Z)             &kp LG(Y)       &kp LG(LS(Z))             &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &trans                 &trans              &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))  &kp LG(LS(NUMBER_3))      &trans  &trans                          &trans
+&kp LG(Q)      &kp LG(W)             &kp LG(T)              &kp LG(A)             &kp LG(X)                                         &trans  &trans  &trans  &trans  &trans
+&mkp MB5       &kp LG(UP_ARROW)      &kp LG(DOWN_ARROW)     &kp LG(C)             &kp LG(V)       &kp LG(LA(V))             &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(LG(C))  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(Z)             &kp LG(Y)       &kp LG(LS(Z))             &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans                &trans                 &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))  &kp LG(LS(NUMBER_3))      &trans  &trans                          &trans
             >;
         };
 
@@ -91,7 +91,7 @@
             bindings = <
 &trans              &kp LC(UP_ARROW)     &trans            &trans             &trans                      &trans  &kp F1  &kp F2   &kp F3   &kp F4
 &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LC(LS(TAB))   &kp LC(TAB)        &trans  &trans      &trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8
-&trans              &kp LC(LG(F))        &kp LC(PAGE_UP)   &kp LC(PAGE_DOWN)  &trans  &trans      &trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12
+&kp LG(M)           &kp LC(LG(F))        &kp LC(PAGE_UP)   &kp LC(PAGE_DOWN)  &trans  &trans      &trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12
 &kp LEFT_COMMAND    &kp LEFT_ALT         &kp LEFT_CONTROL  &trans             &trans  &trans      &trans  &trans                            &trans
             >;
         };
