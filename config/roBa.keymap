@@ -35,10 +35,10 @@
 
         default {
             bindings = <
-&kp Q             &kp W         &kp E             &kp R           &kp T                                              &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D             &lt 2 F         &kp G        &kp ESCAPE      &kp MINUS             &kp H        &kp J  &kp K      &kp L    &lt 1 ENTER
-&kp Z             &kp X         &kp C             &kp V           &kp B        &kp TAB         &kt LG(LS(NUMBER_4))  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &lt 3 SPACE  &kp F13         &kp F14               &lt 6 SPACE                             &kp BACKSPACE
+&kp Q             &kp W         &kp E             &kp R           &kp T                                    &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D             &lt 2 F         &kp G        &kp ESCAPE      &kp MINUS   &kp H        &kp J  &kp K      &kp L    &lt 1 ENTER
+&kp Z             &kp X         &kp C             &kp V           &kp B        &kp TAB         &kt DELETE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &lt 3 SPACE  &kp F13         &kp F14     &lt 6 SPACE                             &kp BACKSPACE
             >;
         };
 
@@ -64,7 +64,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans              &trans          &kp UP_ARROW    &kp MINUS        &kp BACKSPACE
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LG(LEFT_ARROW)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(RIGHT_ARROW)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans              &trans          &trans          &trans           &kp DELETE
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans              &trans          &trans          &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                               &trans
             >;
         };
@@ -80,10 +80,10 @@
 
         CMDSCROLL {
             bindings = <
-&kp LG(Q)  &kp LG(W)              &kp LG(T)           &kp LG(A)      &kp LG(X)                                         &trans  &trans  &trans  &trans  &trans
-&mkp MB5   &kp LG(LEFT_BRACKET)   &kp LG(UP_ARROW)    &kp LG(C)      &kp LG(V)             &kp LG(LA(V))       &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &kp LG(RIGHT_BRACKET)  &kp LG(DOWN_ARROW)  &kp LG(Z)      &kp LG(Y)             &kp LG(LS(Z))       &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans                 &trans              &kp LG(LS(C))  &kp LG(LS(NUMBER_3))  &kp LG(LS(N5))      &trans  &trans                          &trans
+&kp LG(Q)      &kp LG(W)              &kp LG(T)           &kp LG(A)             &kp LG(X)                                         &trans  &trans  &trans  &trans  &trans
+&mkp MB5       &kp LG(LEFT_BRACKET)   &kp LG(UP_ARROW)    &kp LG(C)             &kp LG(V)       &kp LG(LA(V))             &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(LG(C))  &kp LG(RIGHT_BRACKET)  &kp LG(DOWN_ARROW)  &kp LG(Z)             &kp LG(Y)       &kp LG(LS(Z))             &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans                 &trans              &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))  &kp LG(LS(NUMBER_3))      &trans  &trans                          &trans
             >;
         };
 
