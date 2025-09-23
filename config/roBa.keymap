@@ -33,25 +33,25 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        default {
             bindings = <
-&kp Q             &kp W         &kp E             &kp R           &kp T                                                &kp Y      &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D             &kp F           &kp G           &kp ESCAPE               &kp MINUS   &kp H      &kp J  &kp K      &kp L    &lt 3 ENTER
-&kp Z             &kp X         &kp C             &kp V           &kp B           &kp TAB                  &sl 2       &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LANGUAGE_5  &kp INTERNATIONAL_2      &kp DELETE  &kp SPACE                             &kp BACKSPACE
+&kp Q             &kp W         &kp E             &kp R           &kp T                                              &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D             &lt 2 F         &kp G        &kp ESCAPE      &kp MINUS             &kp H        &kp J  &kp K      &kp L    &lt 1 ENTER
+&kp Z             &kp X         &kp C             &kp V           &kp B        &kp TAB         &kt LG(LS(NUMBER_4))  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &lt 3 SPACE  &kp F13         &kp F14               &lt 6 SPACE                             &kp BACKSPACE
             >;
         };
 
-        FUNCTION {
+        symbol {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp EXCLAMATION  &kp DOUBLE_QUOTES    &kp HASH              &kp DOLLAR             &kp PERCENT                                  &trans  &kp F2  &kp F3  &kp F4  &kp F5
+&kp AMPERSAND    &kp SINGLE_QUOTE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN  &kp LEFT_BRACKET       &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp CARET        &kp INTERNATIONAL_3  &kp UNDERSCORE        &kp SEMICOLON          &kp COLON    &kp RIGHT_BRACKET      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans           &trans               &trans                &trans                 &trans       &trans                 &trans   &trans                          &kp F12
             >;
         };
 
-        NUM {
+        numbt {
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
@@ -78,7 +78,7 @@
             >;
         };
 
-        SCROLL {
+        CMDSCROLL {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
@@ -87,7 +87,7 @@
             >;
         };
 
-        layer_6 {
+        CTRL {
             bindings = <
 &trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
