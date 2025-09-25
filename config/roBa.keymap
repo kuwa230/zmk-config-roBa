@@ -53,10 +53,10 @@
 
         numbt {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans                          &kp SLASH     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp EQUAL
-&bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans  &trans  &bt BT_CLR      &trans  &kp PLUS      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0
-&trans        &trans        &trans        &trans  &trans  &trans          &trans  &kp MINUS     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD
-&trans        &trans        &trans        &trans  &trans  &trans          &trans  &kp ASTERISK                                                     &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans                             &kp SLASH     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PERIOD
+&bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans  &trans  &bt BT_CLR      &kp EQUAL  &kp PLUS      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0
+&trans        &trans        &trans        &trans  &trans  &trans          &trans     &kp MINUS     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans
+&trans        &trans        &trans        &trans  &trans  &trans          &trans     &kp ASTERISK                                                     &trans
             >;
         };
 
